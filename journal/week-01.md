@@ -13,3 +13,6 @@
 | **One question I still have** | How can an AI agent decide which tool to use for a particular task? |
 | **What I will do differently next week** | Next week, I will verify important AI-generated information with a reliable or official source before accepting it. |
 
+## Key Learning
+
+A failed or incorrect AI answer is also useful evidence. It helps me understand that AI output should be checked instead of being accepted directly.portant information before depending on it.
