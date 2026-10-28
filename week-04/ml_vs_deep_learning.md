@@ -1,4 +1,4 @@
-# Mission 2: What Makes Deep Learning Different?
+# Week 04 What Makes Deep Learning Different?
 
 ## 1. Introduction
 
