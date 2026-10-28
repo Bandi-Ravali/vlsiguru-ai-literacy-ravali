@@ -6,7 +6,7 @@
 **Programme:** VLSIGuru AI Literacy Layer  
 **Week:** 03
 
-## 1. Purpose
+## 1. Purpose 
 
 The purpose of Week 03 is to learn how AI tools can support engineering learning, how to write better prompts, how to compare AI-generated answers, and how to investigate an open-source tool relevant to Physical Design.
 
