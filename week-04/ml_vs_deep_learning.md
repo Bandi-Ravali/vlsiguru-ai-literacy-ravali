@@ -1,63 +1,86 @@
 # Mission 2: What Makes Deep Learning Different?
 
-## Introduction
+## 1. Introduction
 
-Artificial intelligence, machine learning and deep learning are related concepts, but they do not mean exactly the same thing. Understanding their differences helps engineers select an appropriate approach for a problem.
+Artificial Intelligence, Machine Learning and Deep Learning are related concepts, but they have different meanings. Understanding their differences helps engineers select suitable methods for solving problems.
 
-## Relationship Between AI, ML and DL
+## 2. Relationship Between AI, ML and DL
 
 ```text
 Artificial Intelligence (AI)
-          |
-          v
-   Machine Learning (ML)
-          |
-          v
-     Deep Learning (DL)
+             |
+             v
+      Machine Learning (ML)
+             |
+             v
+        Deep Learning (DL)
 ```
 
-Artificial intelligence is the broad field. Machine learning is a branch of AI, and deep learning is a branch of machine learning that uses neural networks with multiple layers.
+**Artificial Intelligence (AI):** The broad field of creating systems that perform tasks requiring intelligence.
 
-## Comparison of Approaches
+**Machine Learning (ML):** A branch of AI in which systems learn patterns from data.
 
-| Feature | Rule-Based System | Traditional Machine Learning | Deep Learning |
+**Deep Learning (DL):** A branch of ML that uses neural networks with multiple layers to learn complex patterns.
+
+## 3. Comparison of Approaches
+
+| Feature | Rule-Based System | Traditional ML | Deep Learning |
 |---|---|---|---|
-| Main method | Predefined rules | Learns patterns from data | Learns complex patterns through multilayer neural networks |
-| Feature selection | Rules are manually defined | Features are often selected or engineered manually | Features can often be learned automatically |
-| Data requirements | Depends on the rules and problem | Often works well with structured data | Frequently benefits from large datasets |
-| Computing needs | Usually low | Depends on the algorithm | Can be high for large models |
-| Example | Temperature alarm | Predicting equipment failure from sensor measurements | Recognizing defects in wafer images |
+| Method | Follows predefined rules | Learns from data | Learns through multilayer neural networks |
+| Feature selection | Rules are manually defined | Often requires feature engineering | Can learn features automatically |
+| Typical data | Clearly defined conditions | Often structured data | Complex data, including images |
+| Computing requirements | Usually low | Depends on the algorithm | Can be high |
+| Example | Temperature alarm | Equipment failure prediction | Wafer defect image classification |
 
-## How Deep Learning Works
+## 4. Rule-Based Systems
 
-Deep learning models process input data through multiple layers. Early layers may learn simple patterns, while later layers can combine them into more complex representations.
+Rule-based systems follow instructions written by a programmer.
 
-For example, in image recognition, a network may learn simple edges and shapes before learning more complex visual patterns. The exact representations depend on the model and training data.
+For example, a temperature monitoring system may activate an alarm when the temperature exceeds a predefined threshold.
 
-## Advantages of Deep Learning
+**Advantages:**
+- Easy to understand.
+- Simple to implement for clearly defined conditions.
+- Often requires limited computing resources.
 
-- Learns complex patterns from data.
-- Can automatically learn useful representations from images, audio and text.
-- Supports applications such as image classification, speech recognition and language processing.
-- Can perform well when the training data represents the problem effectively.
+**Limitations:**
+- Rules must be written or updated manually.
+- Complex patterns can be difficult to describe with fixed rules.
 
-## Limitations of Deep Learning
+## 5. Traditional Machine Learning
 
-- May require large quantities of representative data.
+Traditional machine learning algorithms learn relationships from examples. Engineers often select useful input features.
+
+For example, a model can use temperature, vibration and current measurements to predict possible equipment failure.
+
+It can work well with structured datasets and may be easier to interpret than some large neural networks.
+
+## 6. Deep Learning
+
+Deep learning uses neural networks with multiple layers to learn representations from data.
+
+For example, a model trained on images may learn patterns that distinguish different defect categories.
+
+**Advantages:**
+- Can learn complex patterns.
+- Can process images, audio and text.
+- Can learn useful features automatically.
+
+**Limitations:**
+- May require large amounts of representative data.
 - Can require significant computing resources.
-- May be difficult to interpret.
-- Can learn unwanted biases from its training data.
-- Can perform poorly on data that differs significantly from its training examples.
+- Can be difficult to interpret.
+- May perform poorly on unfamiliar data.
 
-## Choosing the Right Approach
+## 7. Choosing the Right Approach
 
-A rule-based system may be suitable when the rules are simple and clearly defined. Traditional machine learning may work well for structured datasets with useful engineered features. Deep learning may be useful when the data contains complex patterns, such as images or audio.
+A rule-based system may be sufficient for simple threshold checks. Traditional machine learning may suit structured sensor data. Deep learning may be useful when the problem involves complicated patterns in images or other complex inputs.
 
-More complex models are not automatically better. Model selection should consider accuracy, cost, data availability, interpretability and reliability.
+A more complex model is not automatically better. The choice should depend on performance, data availability, cost and reliability requirements.
 
 ## Conclusion
 
-Deep learning is a powerful approach within machine learning, but the best solution depends on the problem and available data. Engineers should compare suitable methods rather than assuming that the most complex model is always the best.
+AI is the broad field, ML learns patterns from data, and DL uses multilayer neural networks. Each approach has strengths and limitations, so engineers should choose the method that best suits the problem.
 
 ## Sources
 
