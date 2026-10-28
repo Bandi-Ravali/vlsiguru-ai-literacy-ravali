@@ -1,4 +1,4 @@
-# Sources – Week 4: Deep Learning
+# Week 4: Deep Learning
 
 This file contains the reference sources used to understand the concepts covered in Week 4 missions. These sources helped me learn about deep learning, neural networks, training, and practical experiments.
 
