@@ -1,4 +1,4 @@
-# Mission 4: How Does a Neural Network Learn?
+# Week 04 How Does a Neural Network Learn?
 
 ## 1. Introduction
 
