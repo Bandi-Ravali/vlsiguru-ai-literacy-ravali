@@ -1,4 +1,4 @@
-# Mission 3: Open the Neural Network
+# week 04 Open the Neural Network
 
 ## 1. Introduction
 
