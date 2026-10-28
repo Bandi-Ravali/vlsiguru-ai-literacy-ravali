@@ -1,4 +1,4 @@
-# Final Challenge: Deep Learning in Semiconductor Manufacturing
+# Week 04 Deep Learning in Semiconductor Manufacturing
 
 ## Case Study: Automated Wafer Defect Detection
 
